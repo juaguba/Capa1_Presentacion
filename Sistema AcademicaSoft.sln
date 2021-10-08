@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Capa1_Presentacion", "Capa1_Presentacion", "{2552CB07-047A-423E-9ABE-1366500D3ADD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentacion.Winform.ModuloInscripcion", "Capa1_Presentacion\Presentacion.Winform.ModuloInscripcion.csproj", "{5D6D2660-9B66-4CEA-AB0B-1A832AA4253E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Capas", "Capas", "{B25E0C90-1BD2-4725-8AD1-90533753BCD6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Escritorio", "Escritorio", "{B86BA3A0-85B1-4E6E-AC9E-4999CB9A48B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WindowsForm", "WindowsForm", "{C0CF44F6-BF94-41F3-B8C3-9F5601C7763B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModuloInscripcion", "ModuloInscripcion", "{F793167E-A797-446D-9669-0B7F06919FF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D6D2660-9B66-4CEA-AB0B-1A832AA4253E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D6D2660-9B66-4CEA-AB0B-1A832AA4253E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D6D2660-9B66-4CEA-AB0B-1A832AA4253E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D6D2660-9B66-4CEA-AB0B-1A832AA4253E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2552CB07-047A-423E-9ABE-1366500D3ADD} = {B25E0C90-1BD2-4725-8AD1-90533753BCD6}
+		{5D6D2660-9B66-4CEA-AB0B-1A832AA4253E} = {F793167E-A797-446D-9669-0B7F06919FF4}
+		{B86BA3A0-85B1-4E6E-AC9E-4999CB9A48B9} = {2552CB07-047A-423E-9ABE-1366500D3ADD}
+		{C0CF44F6-BF94-41F3-B8C3-9F5601C7763B} = {B86BA3A0-85B1-4E6E-AC9E-4999CB9A48B9}
+		{F793167E-A797-446D-9669-0B7F06919FF4} = {C0CF44F6-BF94-41F3-B8C3-9F5601C7763B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1274E14-3D56-4638-94BE-A3D76F27EBCA}
+	EndGlobalSection
+EndGlobal
